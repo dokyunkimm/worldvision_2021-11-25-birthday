@@ -1,0 +1,718 @@
+@media screen and (max-width: 1800px) {
+    #worldSupportContWrap .support_main_box .balloon_bg {
+        display: none;
+    }
+}
+@media screen and (max-width: 1445px) {
+    #worldSupportContWrap .card_video_sec .red_card_bg {
+        left: 52%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    #worldSupportContWrap .card_video_sec .red_card_bg {
+        top: -29px;
+        left: 47%;
+        width: 1328px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    /* 꽃가루 */
+    #worldSupportContWrap .support_main_box .flower_flaks_bg {
+        left: -180px;
+    }
+
+    /* top card section */
+    #worldSupportContWrap .card_top_box {
+        padding: 190px 50px 45px 0;
+        background-size: 1145px auto;
+    }
+    #worldSupportContWrap .card_box .objt {
+        width: 750px;
+    }
+    #worldSupportContWrap .card_box .spptr_bir {
+        font-size: 48px;
+    }
+
+
+    /* mid card section */
+    #worldSupportContWrap .card_mid_box {
+        padding: 0 0 88px;
+        background-size: 1145px auto;
+    }
+    #worldSupportContWrap .card_video_sec .red_card_bg {
+        top: -10px;
+        left: 47%;
+        width: 1050px;
+    }
+    #worldSupportContWrap .card_video_sec .video_box {
+        max-width: 950px;
+        height: 560px;
+        left: 46.2%;
+    }
+
+    /* bottom card section */
+    #worldSupportContWrap .card_bttm_box {
+        background-size: 1145px auto;
+    }
+    #worldSupportContWrap .message_sec .lttr_cont_box .letter_box {
+        width: 900px;
+    }
+    #worldSupportContWrap .message_sec .suppt_btn {
+        margin-top: 0;
+    }
+
+
+
+
+}
+@media screen and (max-width: 1200px) {
+    /* 꽃가루 */
+    #worldSupportContWrap .support_main_box .flower_flaks_bg {
+        left: -230px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    /* top card section */
+    #worldSupportContWrap .card_top_box {
+        padding: 167px 50px 24px 0;
+        background-size: 1000px auto;
+    }
+    #worldSupportContWrap .card_box .objt {
+        width: 650px;
+        top: -100px;
+    }
+    #worldSupportContWrap .card_box .spptr_bir {
+        font-size: 44px;
+    }
+
+
+    /* mid card section */
+    #worldSupportContWrap .card_mid_box {
+        padding: 0 0 73px;
+        background-size: 1000px auto;
+    }
+    #worldSupportContWrap .card_video_sec .red_card_bg {
+        top: -22px;
+        left: 47%;
+        width: 925px;
+    }
+    #worldSupportContWrap .card_video_sec .video_box {
+        max-width: 856px;
+        height: 493px;
+        top: 30px;
+        left: 47%;
+    }
+
+    /* bottom card section */
+    #worldSupportContWrap .card_bttm_box {
+        background-size: 1000px auto;
+    }
+    #worldSupportContWrap .message_sec p {
+        font-size: 35px;
+    }
+    #worldSupportContWrap .message_sec .lttr_cont_box .letter_box {
+        width: 700px;
+    }
+    #worldSupportContWrap .message_sec .suppt_btn {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #worldSupportContWrap .common_card_bg {
+        width: calc(100% + 55px);
+    }
+    #worldSupportContWrap .pop_wr .mob_only {
+        display: block !important;
+    }
+
+    /* 팝업 */
+    #worldSupportContWrap .pupUp {
+        position: static;
+        transform: translate(0);
+        margin: 110px auto;
+        max-width: 300px;
+        background: url(../mob/m_popup_bg.png) no-repeat;
+    }
+    #worldSupportContWrap .pupUp .top_txt {
+        font-size: 26px;
+        line-height: 1.46;
+    }
+    #worldSupportContWrap .pupUp .pic_lttr_box {
+        flex-direction: column;
+        align-items: center;
+    }
+    #worldSupportContWrap .pupUp .pic_lttr_box .pic_bg {
+        left: 0;
+    }
+    #worldSupportContWrap .pupUp .pic_lttr_box .lttr_bg {
+        margin-top: -150px;
+        padding: 157px 0 0;
+        right: 0px;
+        width: 271px;
+        height: 399px;
+        background: url(../mob/m_popup_letter.png) no-repeat;
+    }
+    #worldSupportContWrap .pupUp .pic_lttr_box .lttr_bg .lttr_txt {
+        text-align: center;
+    }
+    #worldSupportContWrap .pic_lttr_box .lttr_bg .lttr_txt .tit {
+        font-size: 38px;
+    }
+    #worldSupportContWrap .pic_lttr_box .lttr_bg .lttr_txt .cont {
+        font-size: 24px;
+        line-height: 1.4583;
+    }
+    #worldSupportContWrap .popUp_btn {
+        margin-top: 40px;
+        max-width: 260px;
+    }
+    #worldSupportContWrap .popUp_btn > a {
+        padding: 18px 0;
+        height: 90px;
+        font-size: 22px;
+        line-height: 1.36;
+    }
+    #worldSupportContWrap .popUp_btn::after {
+        z-index: -2;
+        position: absolute;
+        top: 8px;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100px;
+        border-radius: 50px;
+        background: url(../mob/m_btn_shadow.png) no-repeat;
+        background-size: 100% 100px;
+    }
+
+    #worldSupportContWrap .popUp_btn::before {
+        height: 90px;
+    }
+    #worldSupportContWrap .bttm_txt {
+        font-size: 18px;
+    }
+    #worldSupportContWrap .pupUp .pupUp_close_btn {
+        padding: 25px;
+        z-index: 101;
+        top: -65px;
+        right: 50%;
+        transform: translateX(50%);
+        background: url(../mob/m_icon_close.png) no-repeat;
+        background-size: 50px auto;
+    }
+
+}
+@media screen and (max-width: 980px) {
+    /* top card section */
+    #worldSupportContWrap .card_top_box {
+        padding: 110px 50px 27px 0;
+        background-size: 800px auto;
+    }
+    #worldSupportContWrap .card_box .objt {
+        width: 540px;
+        top: -100px;
+    }
+    #worldSupportContWrap .card_box .spptr_bir {
+        font-size: 37px;
+    }
+    #worldSupportContWrap .card_box .txt {
+        font-size: 20px;
+    }
+
+
+    /* mid card section */
+    #worldSupportContWrap .card_mid_box {
+        padding: 0 0 68px;
+        background-size: 800px auto;
+    }
+    #worldSupportContWrap .card_video_sec .red_card_bg {
+        top: 0px;
+        left: 48%;
+        width: 715px;
+    }
+    #worldSupportContWrap .card_video_sec .video_box {
+        max-width: 650px;
+        height: 385px;
+        top: 30px;
+        left: 47.5%;
+    }
+
+    /* bottom card section */
+    #worldSupportContWrap .card_bttm_box {
+        padding: 30px 50px 171px 0;
+        background-size: 800px auto;
+    }
+    #worldSupportContWrap .message_sec p {
+        font-size: 30px;
+    }
+    #worldSupportContWrap .message_sec .lttr_cont_box .letter_box {
+        margin-top: 0;
+        width: 700px;
+    }
+    #worldSupportContWrap .message_sec .suppt_btn {
+        margin-top: -37px;
+        font-size: 22px;
+        background-size: auto 90px;
+    }
+}
+@media screen and (max-width: 901px) {
+    #worldSupportContWrap .intro_wr .supporter_mssg {
+        font-size: 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* common */
+    #worldSupportContWrap .pc_only { 
+        display: none !important; 
+    }
+    #worldSupportContWrap .mob_only { 
+        display: block; 
+    }
+
+    /* card_bg */
+    #worldSupportContWrap .common_card_bg {
+        padding: 0 17px 0 0;
+        left: 0;
+        width: calc(100% + 17px);
+    }
+
+    
+
+
+    /* intro layout */
+    #worldSupportContWrap .intro_wr {
+        background: url(../mob/m_intro_bg.jpg) no-repeat;
+        background-size: cover;
+        min-height: 580px;
+        justify-content: center;
+    }
+    #worldSupportContWrap .intro_wr .supporter_mssg {
+        font-size: 60px;
+        text-shadow: 3px 3px 0px rgba(255, 212, 191, 1);
+        
+    }
+    #worldSupportContWrap .intro_wr .supporter_mssg.orginal_fadeIn {
+        display: none;
+        
+    }
+    #worldSupportContWrap .intro_wr .supporter_mssg .spt_name {
+        font-size: 46px;
+    }
+    #worldSupportContWrap .birday_card {
+        width: 300px;
+    }
+    #worldSupportContWrap .notice_band {
+        margin: 0 auto;
+        padding: 10px 0;
+        max-width: 280px;
+        height: 65px;
+        font-size: 18px;
+        line-height: 1.44;
+        background: url(../mob/m_guide_band.png) no-repeat center;
+        background-size: 280px auto;
+    }
+    /* animation 효과 */
+    #worldSupportContWrap .intro_wr .text_fadeIn {
+        width: 100%;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 3s;
+        pointer-events: none;
+
+        /* animation: brthTxt 2s 2s 1 linear alternate; */
+        /* animation-name: brthTxt;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-direction: alternate;
+        animation-fill-mode: both;
+        pointer-events: none; */
+    }
+    #worldSupportContWrap .intro_wr .text_fadeIn.active {
+        opacity: 1;
+        pointer-events: none;
+    }
+    /* @keyframes brthTxt {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    } */
+    #worldSupportContWrap .intro_wr .orginal_fadeIn {
+        position: relative;
+        opacity: 0;
+        transition: opacity 3s;
+        animation-delay: 5s;
+        pointer-events: none;
+        /* animation: brthOri 4s 12s 1 linear alternate; 
+        animation-name: brthOri;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-fill-mode: both;*/
+    }
+    /* @keyframes brthOri {
+        0% {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        100% {
+            opacity: 1;
+            pointer-events: auto;
+        }
+    } */
+    #worldSupportContWrap .intro_wr .orginal_fadeIn.active {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    #worldSupportContWrap .intro_wr .card_fadeIn {
+        display: none;
+        width: 300px;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        /* animation: brthCard 2s 3s 1 linear alternate; */
+        animation-name: brthCard;
+        animation-duration: 3s;
+        animation-delay: 3s;
+        animation-direction: alternate;
+        animation-fill-mode: both;
+        pointer-events: none;
+        pointer-events: none;
+    }
+    /* @keyframes brthCard {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    } */
+    
+
+    /* 폭죽 */
+    /* .firecracker {
+        display: none !important;
+    } */
+    /* 꽃가루 관련 css 인트로 페이지에서 숨김 처리 */
+    #worldSupportContWrap .remv{
+        z-index: -100;
+        display: none;
+        pointer-events: none;
+        position: fixed;
+        transform: scale(0);
+    }
+    
+    /* main layout */
+    #worldSupportContWrap .m_deco_bg {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        width: 100%;
+		pointer-events: none;
+    }
+    #worldSupportContWrap .m_deco_bg > img {
+        width: 100%;
+    }
+
+
+    #worldSupportContWrap .support_main_box {
+        padding: 62px 0 0;
+        background: url('../mob/m_main_bg.jpg') no-repeat center top;
+        background-size: cover;
+    }
+    #worldSupportContWrap .card_top_box {
+        padding: 100px 17px 42px 0;
+        background: url(../mob/m_main_card_top.png) no-repeat center top;
+    }
+    #worldSupportContWrap .card_box {
+        margin-top: 20px;
+        padding: 0;
+    }
+    #worldSupportContWrap .card_box .objt {
+        top: -50px;
+        left: 47%;
+        max-width: 360px;
+    }
+    #worldSupportContWrap .card_box .spptr_bir {
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 1.3;
+    }
+    #worldSupportContWrap .card_box .spptr_bir .text_line::before {
+        background-position: center bottom;
+    }
+    #worldSupportContWrap .card_box .txt {
+        font-size: 16px;
+        line-height: 1.3636;
+    }
+
+    #worldSupportContWrap .card_mid_box {
+        padding: 0 17px 41px 0;
+        background: url(../mob/m_main_card_mid.png) no-repeat center top;
+    }
+    #worldSupportContWrap .card_video_sec .red_card_bg {
+        /* left: -19px;
+        top: -17px;
+        width: calc(100% + 33px); */
+        left: 50.5%;
+        top: 59%;
+        transform: translate(-50%, -50%);
+        /* width: 100%; */
+        width: 391px;
+    }
+    #worldSupportContWrap .card_video_sec .video_box {
+        top: 11px;
+        left: 50%;
+        max-width: 320px;
+        height: 185px;
+        padding-bottom: 0;
+    }
+
+    /* 메인 버젼02 카드 bottom */
+    #worldSupportContWrap .card_bttm_box.ver02_card_bttm_box {
+        padding: 25px 17px 100px 0;
+        background: url(../mob/m_main_card_bttm.png) no-repeat center top;
+    }
+    /* 메인 버젼01 카드 bottom */
+    #worldSupportContWrap .card_bttm_box {
+        padding: 25px 17px 75px 0;
+        background: url(../mob/m_main_card_bttm.png) no-repeat center top;
+    }
+    #worldSupportContWrap .message_sec .lttr_cont_box .letter_box {
+        margin-top: -35px;
+        width: auto;
+    }
+    #worldSupportContWrap .message_sec .lttr_cont_box .letter_box > .mob_only {
+        width: 375px;
+    }
+    #worldSupportContWrap .message_sec p {
+        font-size: 22px;
+    }
+    
+    /* 메인 버젼01 버튼 */
+    #worldSupportContWrap .message_sec .suppt_btn {
+        margin: -34px 0 0 -10px;
+        padding: 35px 0;
+        font-size: 22px;
+        line-height: 1.363;
+        background: url(../mob/m_btn.png) no-repeat center;
+    }
+    /* 메인 버젼02 버튼 */
+    #worldSupportContWrap .message_sec .ver02_btn {
+        z-index: 5;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        max-width: 286px;
+        width: 100%;
+        height: 75px;
+        font-size: 22px;
+        padding: 22px 0;
+        color: #fff;
+        background: url(../mob/m_ver02_btn.png) no-repeat center;
+        background-size: 100% 75px;
+    }
+    #worldSupportContWrap .message_sec .ver02_btn > span > s {
+        text-decoration: none;
+        font-family: 'BMJUA';
+    }
+
+    
+}
+@media screen and (max-width: 500px) {
+    /* common */
+    #worldSupportContWrap .pc_only { 
+        display: none !important; 
+    }
+    #worldSupportContWrap .mob_only { 
+        display: block; 
+    }
+
+    /* card_bg */
+    #worldSupportContWrap .m_card_bg {
+        padding: 0 17px 0 0;
+        left: 0;
+        width: calc(100% + 17px);
+    }
+
+    
+
+
+    /* intro layout */
+    #worldSupportContWrap .intro_wr {
+        background: url(../mob/m_intro_bg.jpg) no-repeat;
+        background-size: cover;
+    }
+    #worldSupportContWrap .intro_wr .supporter_mssg {
+        font-size: 60px;
+        text-shadow: 3px 3px 0px rgba(255, 212, 191, 1);
+    }
+    
+
+    #worldSupportContWrap .intro_wr .supporter_mssg .spt_name {
+        font-size: 46px;
+    }
+    #worldSupportContWrap .notice_band {
+        margin: 0 auto;
+        padding: 10px 0;
+        max-width: 280px;
+        height: 65px;
+        font-size: 18px;
+        line-height: 1.44;
+        background: url(../mob/m_guide_band.png) no-repeat center;
+        background-size: 280px auto;
+    }
+
+
+    /* main layout */
+    /* 꽃가루 풍선 */
+    #worldSupportContWrap .m_deco_bg {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #worldSupportContWrap .m_deco_bg > img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    #worldSupportContWrap .support_main_box {
+        padding: 62px 0 0;
+        background: url('../mob/m_main_bg.jpg') no-repeat center top;
+        background-size: cover;
+    }
+    #worldSupportContWrap .card_top_box {
+        padding: 100px 17px 42px 0;
+        background: url(../mob/m_main_card_top.png) no-repeat center top;
+    }
+    #worldSupportContWrap .card_box {
+        padding: 0;
+    }
+    #worldSupportContWrap .card_box .objt {
+        top: -50px;
+        left: 47%;
+        max-width: 360px;
+    }
+    #worldSupportContWrap .card_box .spptr_bir {
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 1.3;
+    }
+    #worldSupportContWrap .card_box .spptr_bir > .text_line::before {
+        background-position: center bottom;
+    }
+    #worldSupportContWrap .card_box .txt {
+        font-size: 16px;
+        line-height: 1.3636;
+    }
+
+    #worldSupportContWrap .card_mid_box {
+        padding: 0 17px 41px 0;
+        background: url(../mob/m_main_card_mid.png) no-repeat center top;
+    }
+    #worldSupportContWrap .card_video_sec .red_card_bg {
+        /* left: -19px;
+        top: -17px;
+        width: calc(100% + 33px); */
+        left: 51.5%;
+        top: 59%;
+        transform: translate(-50%, -50%);
+        /* width: 100%; */
+        width: 391px;
+    }
+    #worldSupportContWrap .card_video_sec .video_box {
+        top: 11px;
+        left: 50%;
+        max-width: 320px;
+        height: 185px;
+        padding-bottom: 0;
+    }
+
+    /* 메인 버젼02 카드 bottom */
+    #worldSupportContWrap .card_bttm_box.ver02_card_bttm_box {
+        padding: 25px 17px 100px 0;
+        background: url(../mob/m_main_card_bttm.png) no-repeat center top;
+    }
+    /* 메인 버젼01 카드 bottom */
+    #worldSupportContWrap .card_bttm_box {
+        padding: 25px 17px 75px 0;
+        background: url(../mob/m_main_card_bttm.png) no-repeat center top;
+    }
+    #worldSupportContWrap .message_sec .lttr_cont_box .letter_box {
+        margin-top: -35px;
+    }
+    #worldSupportContWrap .message_sec .lttr_cont_box .letter_box > .mob_only {
+        width: 375px;
+    }
+    #worldSupportContWrap .message_sec p {
+        font-size: 22px;
+    }
+    
+    /* 메인 버젼01 버튼 */
+    #worldSupportContWrap .message_sec .suppt_btn {
+        margin: -32px 0 0 -10px;
+        padding: 35px 0;
+        font-size: 22px;
+        line-height: 1.363;
+        background: url(../mob/m_btn.png) no-repeat center;
+    }
+    /* 메인 버젼02 버튼 */
+    #worldSupportContWrap .message_sec .ver02_btn {
+        z-index: 5;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        max-width: 286px;
+        width: 100%;
+        height: 75px;
+        font-size: 22px;
+        padding: 22px 0;
+        color: #fff;
+        background: url(../mob/m_ver02_btn.png) no-repeat center;
+        background-size: 100% 75px;
+    }
+    #worldSupportContWrap .message_sec .ver02_btn > span > s {
+        text-decoration: none;
+        font-family: 'BMJUA';
+    }
+
+}
+@media screen and (max-width: 350px) {
+    /* main top card section */
+    #worldSupportContWrap .card_top_box {
+        padding: 100px 17px 26px 0;
+        background: url(../mob/m_main_card_top.png) no-repeat center top;
+        background-size: 380px auto;
+    }
+
+    /* main middle card section */
+    #worldSupportContWrap .card_mid_box {
+        padding: 0 17px 28px 0;
+        background: url(../mob/m_main_card_mid.png) no-repeat center top;
+        background-size: 380px auto;
+    }
+
+    /* main bottom card section */
+    #worldSupportContWrap .card_bttm_box {
+        padding: 25px 17px 75px 0;
+        background: url(../mob/m_main_card_bttm.png) no-repeat center top;
+        background-size: 380px auto !important;
+    }
+}
